@@ -1,0 +1,74 @@
+version: '3.8'
+
+services:
+  # MongoDB Database Service
+  mongodb:
+    image: mongo:6.0
+    container_name: skillgap_mongodb
+    restart: always
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+    networks:
+      - skillgap-net
+
+  # Python NLP Microservice
+  nlp-service:
+    build:
+      context: ./nlp-service
+      dockerfile: Dockerfile
+    container_name: skillgap_nlp
+    restart: always
+    ports:
+      - "8000:8000"
+    environment:
+      - HOST=0.0.0.0
+      - PORT=8000
+      - ENVIRONMENT=production
+    networks:
+      - skillgap-net
+
+  # Node.js Express Backend
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: skillgap_backend
+    restart: always
+    ports:
+      - "5000:5000"
+    environment:
+      - PORT=5000
+      - NODE_ENV=production
+      - MONGO_URI=mongodb://mongodb:27017/skillgap_analyzer
+      - NLP_SERVICE_URL=http://nlp-service:8000
+      - CLIENT_URL=http://localhost:5173
+      - JWT_SECRET=production_super_secret_jwt_key_skillgap_2026
+    depends_on:
+      - mongodb
+      - nlp-service
+    networks:
+      - skillgap-net
+
+  # React Frontend (Vite)
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: skillgap_frontend
+    restart: always
+    ports:
+      - "5173:80"
+    depends_on:
+      - backend
+    networks:
+      - skillgap-net
+
+networks:
+  skillgap-net:
+    driver: bridge
+
+volumes:
+  mongo_data:
+

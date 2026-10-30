@@ -1,0 +1,293 @@
+[
+  {
+    "canonical": "JavaScript",
+    "category": "Programming Languages",
+    "aliases": ["javascript", "js", "ecmascript", "es6", "vanilla js"]
+  },
+  {
+    "canonical": "TypeScript",
+    "category": "Programming Languages",
+    "aliases": ["typescript", "ts"]
+  },
+  {
+    "canonical": "Python",
+    "category": "Programming Languages",
+    "aliases": ["python", "py", "python3"]
+  },
+  {
+    "canonical": "Java",
+    "category": "Programming Languages",
+    "aliases": ["java", "core java", "j2ee"]
+  },
+  {
+    "canonical": "C++",
+    "category": "Programming Languages",
+    "aliases": ["c++", "cpp"]
+  },
+  {
+    "canonical": "C#",
+    "category": "Programming Languages",
+    "aliases": ["c#", "csharp", ".net"]
+  },
+  {
+    "canonical": "Go",
+    "category": "Programming Languages",
+    "aliases": ["go", "golang"]
+  },
+  {
+    "canonical": "Rust",
+    "category": "Programming Languages",
+    "aliases": ["rust", "rustlang"]
+  },
+  {
+    "canonical": "PHP",
+    "category": "Programming Languages",
+    "aliases": ["php", "php7", "php8"]
+  },
+  {
+    "canonical": "Ruby",
+    "category": "Programming Languages",
+    "aliases": ["ruby", "ruby on rails", "rails"]
+  },
+  {
+    "canonical": "Kotlin",
+    "category": "Programming Languages",
+    "aliases": ["kotlin"]
+  },
+  {
+    "canonical": "Swift",
+    "category": "Programming Languages",
+    "aliases": ["swift", "swiftui"]
+  },
+  {
+    "canonical": "SQL",
+    "category": "Databases",
+    "aliases": ["sql", "structured query language", "rdbms"]
+  },
+  {
+    "canonical": "HTML5",
+    "category": "Web Frameworks",
+    "aliases": ["html", "html5"]
+  },
+  {
+    "canonical": "CSS3",
+    "category": "Web Frameworks",
+    "aliases": ["css", "css3"]
+  },
+  {
+    "canonical": "React",
+    "category": "Web Frameworks",
+    "aliases": ["react", "react.js", "reactjs", "react native"]
+  },
+  {
+    "canonical": "Node.js",
+    "category": "Web Frameworks",
+    "aliases": ["node", "nodejs", "node.js"]
+  },
+  {
+    "canonical": "Express.js",
+    "category": "Web Frameworks",
+    "aliases": ["express", "expressjs", "express.js"]
+  },
+  {
+    "canonical": "Next.js",
+    "category": "Web Frameworks",
+    "aliases": ["nextjs", "next.js", "next"]
+  },
+  {
+    "canonical": "Vue.js",
+    "category": "Web Frameworks",
+    "aliases": ["vue", "vuejs", "vue.js", "vue 3"]
+  },
+  {
+    "canonical": "Angular",
+    "category": "Web Frameworks",
+    "aliases": ["angular", "angularjs", "angular 2+"]
+  },
+  {
+    "canonical": "Django",
+    "category": "Web Frameworks",
+    "aliases": ["django", "django rest framework", "drf"]
+  },
+  {
+    "canonical": "FastAPI",
+    "category": "Web Frameworks",
+    "aliases": ["fastapi", "fast api"]
+  },
+  {
+    "canonical": "Flask",
+    "category": "Web Frameworks",
+    "aliases": ["flask"]
+  },
+  {
+    "canonical": "Spring Boot",
+    "category": "Web Frameworks",
+    "aliases": ["spring boot", "springboot", "spring framework", "spring"]
+  },
+  {
+    "canonical": "Tailwind CSS",
+    "category": "Web Frameworks",
+    "aliases": ["tailwind", "tailwindcss", "tailwind css"]
+  },
+  {
+    "canonical": "Bootstrap",
+    "category": "Web Frameworks",
+    "aliases": ["bootstrap", "bootstrap 5"]
+  },
+  {
+    "canonical": "Redux",
+    "category": "Web Frameworks",
+    "aliases": ["redux", "redux toolkit", "rtk"]
+  },
+  {
+    "canonical": "MongoDB",
+    "category": "Databases",
+    "aliases": ["mongodb", "mongo", "nosql", "mongoose"]
+  },
+  {
+    "canonical": "PostgreSQL",
+    "category": "Databases",
+    "aliases": ["postgresql", "postgres", "psql"]
+  },
+  {
+    "canonical": "MySQL",
+    "category": "Databases",
+    "aliases": ["mysql", "mariadb"]
+  },
+  {
+    "canonical": "Redis",
+    "category": "Databases",
+    "aliases": ["redis", "in-memory cache"]
+  },
+  {
+    "canonical": "Elasticsearch",
+    "category": "Databases",
+    "aliases": ["elasticsearch", "elastic search", "elk"]
+  },
+  {
+    "canonical": "Docker",
+    "category": "Cloud & DevOps",
+    "aliases": ["docker", "containerization", "containers", "dockerfile"]
+  },
+  {
+    "canonical": "Kubernetes",
+    "category": "Cloud & DevOps",
+    "aliases": ["kubernetes", "k8s"]
+  },
+  {
+    "canonical": "AWS",
+    "category": "Cloud & DevOps",
+    "aliases": ["aws", "amazon web services", "s3", "ec2", "lambda"]
+  },
+  {
+    "canonical": "Azure",
+    "category": "Cloud & DevOps",
+    "aliases": ["azure", "microsoft azure"]
+  },
+  {
+    "canonical": "GCP",
+    "category": "Cloud & DevOps",
+    "aliases": ["gcp", "google cloud platform", "google cloud"]
+  },
+  {
+    "canonical": "CI/CD",
+    "category": "Cloud & DevOps",
+    "aliases": ["ci/cd", "continuous integration", "continuous deployment", "github actions", "gitlab ci", "jenkins"]
+  },
+  {
+    "canonical": "Terraform",
+    "category": "Cloud & DevOps",
+    "aliases": ["terraform", "iac", "infrastructure as code"]
+  },
+  {
+    "canonical": "Linux",
+    "category": "Cloud & DevOps",
+    "aliases": ["linux", "ubuntu", "bash", "shell scripting"]
+  },
+  {
+    "canonical": "Git",
+    "category": "Tools & Methodologies",
+    "aliases": ["git", "github", "gitlab", "version control"]
+  },
+  {
+    "canonical": "REST API",
+    "category": "Tools & Methodologies",
+    "aliases": ["rest", "rest api", "restful", "restful apis"]
+  },
+  {
+    "canonical": "GraphQL",
+    "category": "Tools & Methodologies",
+    "aliases": ["graphql", "apollo client", "apollo server"]
+  },
+  {
+    "canonical": "Microservices",
+    "category": "Tools & Methodologies",
+    "aliases": ["microservices", "microservice architecture"]
+  },
+  {
+    "canonical": "System Design",
+    "category": "Tools & Methodologies",
+    "aliases": ["system design", "distributed systems", "high availability"]
+  },
+  {
+    "canonical": "Agile",
+    "category": "Tools & Methodologies",
+    "aliases": ["agile", "scrum", "kanban", "sprint"]
+  },
+  {
+    "canonical": "Machine Learning",
+    "category": "AI & Machine Learning",
+    "aliases": ["machine learning", "ml", "supervised learning", "unsupervised learning"]
+  },
+  {
+    "canonical": "Deep Learning",
+    "category": "AI & Machine Learning",
+    "aliases": ["deep learning", "neural networks", "cnn", "rnn", "transformers"]
+  },
+  {
+    "canonical": "Natural Language Processing",
+    "category": "AI & Machine Learning",
+    "aliases": ["nlp", "natural language processing", "spacy", "nltk", "llm", "large language models"]
+  },
+  {
+    "canonical": "PyTorch",
+    "category": "AI & Machine Learning",
+    "aliases": ["pytorch", "torch"]
+  },
+  {
+    "canonical": "TensorFlow",
+    "category": "AI & Machine Learning",
+    "aliases": ["tensorflow", "tf", "keras"]
+  },
+  {
+    "canonical": "Pandas",
+    "category": "AI & Machine Learning",
+    "aliases": ["pandas", "dataframe"]
+  },
+  {
+    "canonical": "NumPy",
+    "category": "AI & Machine Learning",
+    "aliases": ["numpy"]
+  },
+  {
+    "canonical": "Scikit-Learn",
+    "category": "AI & Machine Learning",
+    "aliases": ["scikit-learn", "sklearn"]
+  },
+  {
+    "canonical": "Problem Solving",
+    "category": "Soft Skills",
+    "aliases": ["problem solving", "analytical thinking", "critical thinking"]
+  },
+  {
+    "canonical": "Communication",
+    "category": "Soft Skills",
+    "aliases": ["communication", "verbal communication", "written communication", "team player"]
+  },
+  {
+    "canonical": "Leadership",
+    "category": "Soft Skills",
+    "aliases": ["leadership", "mentoring", "team lead"]
+  }
+]
+
